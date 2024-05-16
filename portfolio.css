@@ -1,0 +1,454 @@
+
+body
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.whole
+{
+    display: flex;
+    gap: 50px;
+}
+
+.container1{
+    width: 700px;
+    height: 650px;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.25);
+    text-align: center;
+    padding-bottom: 50px; 
+    margin-left: 100px;
+
+}
+
+.container2{
+    width: 700px;
+    height: 800px;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.25);
+    text-align:start;
+    margin-right: 100px;
+    margin-top: 55px;
+   
+}
+
+.upper1
+{
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+
+.block1
+{
+    height: 100px;
+    width: auto;
+   
+}
+
+.photos
+{
+    height: 100px;
+    width: auto;
+    margin-bottom: 100px;
+}
+
+.contact
+{
+    height: 150px;
+    width: auto;
+    
+}
+
+.upper
+{
+    background-color: rgb(73, 73, 213);
+    color: white;
+    margin: 0;
+    height: 200px;
+    width: auto;
+    text-align: center;
+    
+}
+
+.down1
+{
+    background-color: rgb(73, 73, 213);
+    color: white;
+    height: 90px;
+    width: auto;
+    display: flex;
+    margin-top: 130px;
+    
+}
+
+.twitter
+{
+    margin-top: 20px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    margin-left: 230px;
+    display: grid;
+    place-items: center;
+
+}
+
+.facebook
+{   
+    margin-top: 20px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    margin-left: 20px;
+    display: grid;
+    place-items: center;
+   
+}
+
+.instagram
+{  
+    margin-top: 20px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    margin-left: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.github
+{   
+    margin-top: 20px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    margin-left: 20px;
+    display: grid;
+    place-items: center;
+}
+
+input
+{
+    height: 20px;
+    width: 350px;
+    border-radius: 4px;
+    background-color: white;
+
+}
+
+#biplov{
+    gap: 20px;
+}
+
+
+#p1
+{
+    margin: 0;
+    color: rgb(73, 73, 213);;
+}
+
+p
+{
+    margin-top: 0;
+}
+
+#me
+{
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: rgb(73, 73, 213);
+}
+
+#name
+{
+    margin-bottom: 10px;
+}
+
+#mail
+{
+    margin-bottom: 10px;
+}
+
+#subject
+{
+    margin-bottom: 10px;
+}
+
+#textarea
+{
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+button
+{
+    border-radius: 20px;
+    height: 20px;
+    width: 100px;
+    margin-top: 40px;
+    color: rgb(73, 73, 213);;
+}
+
+#submit
+{
+    width: 100px;
+    color: rgb(73, 73, 213);;
+}
+
+.help{
+    display: flex;
+    color: aliceblue;
+}
+
+.profile
+{
+   
+    height: 190px;
+    width: 190px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    
+}
+
+.upper .profile
+{
+    display: flex;
+}
+
+#biplov
+{
+    border-radius: 50%;
+}
+
+.all:hover
+{
+    cursor: pointer;
+    background-color: rgb(73, 73, 213);
+    color: aliceblue;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.19);
+}
+
+.design:hover
+{
+    cursor: pointer;
+    background-color: rgb(73, 73, 213);
+    color: aliceblue;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.19);
+
+}
+
+.development:hover
+{
+    cursor: pointer;
+    background-color: rgb(73, 73, 213);
+    color: aliceblue;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.19);
+}
+
+.project:hover
+{
+    cursor: pointer;
+    background-color: rgb(73, 73, 213);
+    color: aliceblue;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.19);
+}
+
+.project
+{
+    margin-left: 20px;
+}
+
+#biplov:hover
+{
+    cursor: pointer;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.19);
+}
+
+#submit:hover
+{
+    cursor: pointer;
+    background-color: rgb(73, 73, 213);
+    color: aliceblue;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.19);
+}
+
+.twitter:hover
+{
+    background-color: rgb(37, 37, 137);
+    cursor: pointer;
+    color: aliceblue;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.19);
+}
+
+
+.facebook:hover
+{
+    background-color: rgb(37, 37, 137);
+    cursor: pointer;
+    color: aliceblue;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.19);
+}
+
+
+.instagram:hover
+{
+    background-color: rgb(37, 37, 137);
+    cursor: pointer;
+    color: aliceblue;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.19);
+}
+
+
+.github:hover
+{
+    background-color: rgb(37, 37, 137);
+    cursor: pointer;
+    color: aliceblue;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0 , 0, 0 , 0.19);
+}
+
+.design 
+{
+    margin-left: 20px;
+
+}
+
+.development
+{
+    margin-left: 20px;
+}
+
+.market
+{
+    margin-left: 20px;
+}
+
+.image
+{
+    height: 200px;
+    width: auto;
+   
+    
+}
+
+.skills
+{
+    height: 200px;
+    width: auto;
+}
+
+
+
+#aboutme
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.image
+{
+    margin-top: 35px;
+    height: 200px;
+    width: 200px;
+}
+
+.image #face
+{
+    height: 100%;
+    width: 100%;
+}
+
+.about
+{
+    margin-top: 35px;
+    height: 200px;
+    width: 300px;
+    
+}
+
+.parent
+{
+    display: flex;
+    
+}
+
+.skill
+{
+    display: grid;
+    place-items: center;
+}
+
+.skill #my{
+    align-items: center;
+    text-align: center;
+}
+
+.html
+{
+    height: 10px;
+    width: 280px;
+    background:linear-gradient(90deg , blue 85% , rgb(180, 176, 176) 15%);
+    border-radius: 25px;  
+
+}
+
+.css
+{
+    height: 10px;
+    width: 280px;
+    background:linear-gradient(90deg , red 80% , rgb(180, 176, 176) 20%);
+    border-radius: 25px;  
+}
+
+.javascript
+{
+    height: 10px;
+    width: 280px;
+    background:linear-gradient(90deg , rgb(30, 113, 81)70% , rgb(180, 176, 176) 30%);
+    border-radius: 25px;  
+}
+
+.cpp
+{
+    height: 10px;
+    width: 280px;
+    background:linear-gradient(90deg , rgb(73, 70, 70)70% ,  rgb(180, 176, 176) 30%);
+    border-radius: 25px;  
+}
+
+p
+{
+    margin-bottom: 0;
+    font-size:small;
+}
+
+h3{
+    color:rgb(73, 73, 213); ;
+}
+
+#my
+{
+    margin-top: 5px;
+    margin-bottom: 24px;
+}
+
+#web
+{
+    color: black;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
